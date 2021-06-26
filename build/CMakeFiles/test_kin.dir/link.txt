@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_kin.dir/test/csvtools.cc.o CMakeFiles/test_kin.dir/test/test_ironhorse_kinematics.cpp.o  -o test_kin -Wl,-rpath,/usr/local/lib /usr/local/lib/librbdl.so /usr/local/lib/librbdl_urdfreader.so -llua5.1 -lm 

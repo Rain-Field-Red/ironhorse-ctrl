@@ -1,0 +1,10 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp",
+        "*.ipp": "cpp",
+        "*.tcc": "cpp",
+        "matrixfunctions": "cpp"
+    }
+}

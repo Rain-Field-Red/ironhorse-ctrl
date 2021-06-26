@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl.h
+qdldl_types.h
+../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h
+
+../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h
+
+/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c
+qdldl.h
+/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.h
+
