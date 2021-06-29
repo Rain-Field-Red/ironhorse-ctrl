@@ -50,7 +50,7 @@ def convert_type(input):
 
 def get_data_from_sim():
     global get_last_vel
-    print("geting data step 1")
+    #print("geting data step 1")
 
     get_orientation = []
     get_matrix = []
@@ -69,7 +69,7 @@ def get_data_from_sim():
     imu_data[5] = base_orn[2]
     imu_data[6] = base_orn[3]
 
-    print("geting data step 2")
+    #print("geting data step 2")
 
     _, vel_lin, vel_ang = vrep.simxGetObjectVelocity(clientID, baseHandle[0], vrep.simx_opmode_oneshot)
     #print(vel_lin)
@@ -144,7 +144,7 @@ def get_data_from_sim():
     base_pos_t = list(map(float, base_pos))
     #print(type(imu_data_t[0]))
 
-    print("get data done")
+    #print("get data done")
     
     return imu_data_t, leg_data_t, base_pos_t
 
@@ -153,12 +153,12 @@ def run():
     
     imu_data, leg_data, base_pos = get_data_from_sim()
 
-    print("run?")
+    #print("run?")
     # call cpp function to calculate mpc tau
     tau = cpp_gait_ctrller.toque_calculator(convert_type(
         imu_data), convert_type(leg_data))
 
-    print("run")
+    #print("run")
 
     control_force = tau.contents.eff
     for i in range(12):
@@ -216,9 +216,9 @@ def reset_robot():
         vrep.simxSynchronousTrigger(clientID)  # 让仿真走一步
         #pose = get_data_from_sim()
         imu_data, leg_data, _ = get_data_from_sim()
-        print("before pre")
-        print(imu_data)
-        print(leg_data)
+        #print("before pre")
+        #print(imu_data)
+        #print(leg_data)
         cpp_gait_ctrller.pre_work(convert_type(
            imu_data), convert_type(leg_data))
 
@@ -227,7 +227,7 @@ def reset_robot():
     print("after set gait type")
     time.sleep(1)
     for _ in range(200):
-        print("before run")
+        #print("before run")
         run()
         vrep.simxSynchronousTrigger(clientID)  # 让仿真走一步
 
@@ -279,7 +279,7 @@ def init_vrep():
 def main():
     print('main')
 
-    #cpp_gait_ctrller.set_gait_type(convert_type(0))
+    cpp_gait_ctrller.set_gait_type(convert_type(0))
 
     cnt = 0
 

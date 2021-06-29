@@ -105,7 +105,7 @@ void LegController<T>::updateData(LegData* legData) {
     datas[leg].qd(1) = legData->qd_hip[leg];
     datas[leg].qd(2) = legData->qd_knee[leg];
 
-    printf("in leg %d update \n", leg);
+    //printf("in leg %d update \n", leg);
 
     // J and p 雅可比和足端位置
     //computeLegJacobianAndPosition<T>(_quadruped, datas[leg].q, &(datas[leg].J),
@@ -114,11 +114,11 @@ void LegController<T>::updateData(LegData* legData) {
     computeLegJacobianAndPosition2(datas[leg].q, &(datas[leg].J),
                                     &(datas[leg].p), leg);
     
-    printf("here \n");
+    //printf("here \n");
     // v 足端速度
     datas[leg].v = datas[leg].J * datas[leg].qd;
 
-    printf("the end of leg update \n");
+    //printf("the end of leg update \n");
 
   }
   // std::cout << "leg qd = " << std::endl;
@@ -303,7 +303,7 @@ void LegController<T>::computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Ve
   q_rbdl       = VectorNd::Zero (_ironhorse->dof_count);
   //qd_rbdl      = VectorNd::Zero (_ironhorse->dof_count);
 
-  printf("this is leg %d \n", leg);
+  //printf("this is leg %d \n", leg);
 
   //模型对应
   int index;
@@ -323,7 +323,7 @@ void LegController<T>::computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Ve
     cout << "wrong leg number" << endl;
   }
 
-  printf("index is %d \n", index);
+  //printf("index is %d \n", index);
 
   for(int i=0;i<3;i++){
     q_rbdl(3*index+i) = q(i);
@@ -365,9 +365,9 @@ void LegController<T>::computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Ve
     // }
   }
 
-  printf("%f | %f | %f \n", G(0,3*index+0), G(0,3*index+1), G(0,3*index+2));
+  //printf("%f | %f | %f \n", G(0,3*index+0), G(0,3*index+1), G(0,3*index+2));
 
-  printf("compute done \n");
+  //printf("compute done \n");
 
 }
 
@@ -422,7 +422,7 @@ void LegController<T>::computeLegIK2(Vec3<T>& pDes, Vec3<T>* qDes, int leg){
   p_rbdl_target(1) = pDes(1) + p_t(1);
   p_rbdl_target(2) = pDes(2) + p_t(2);
 
-  cout << "new target point is: " << p_rbdl_target(0) << "|" << p_rbdl_target(1) << "|" << p_rbdl_target(2) << endl;
+  //cout << "new target point is: " << p_rbdl_target(0) << "|" << p_rbdl_target(1) << "|" << p_rbdl_target(2) << endl;
 
   body_ids.push_back (body_id);
   body_points.push_back (leg_point);
@@ -433,7 +433,7 @@ void LegController<T>::computeLegIK2(Vec3<T>& pDes, Vec3<T>* qDes, int leg){
   qDes->operator()(1) = q_target(3*index+1);
   qDes->operator()(2) = q_target(3*index+2);
 
-  printf("invers kinematcs done \n");
+  //printf("invers kinematcs done \n");
 
 }
 

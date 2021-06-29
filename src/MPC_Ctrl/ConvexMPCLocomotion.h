@@ -125,7 +125,8 @@ private:
 
   // High speed running
   //float _body_height = 0.34;
-  float _body_height = 0.29;
+  //float _body_height = 0.29;
+  float _body_height = 0.7;
 
   float _body_height_running = 0.29;
   float _body_height_jumping = 0.36;
