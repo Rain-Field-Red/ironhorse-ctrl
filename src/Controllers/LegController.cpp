@@ -105,14 +105,21 @@ void LegController<T>::updateData(LegData* legData) {
     datas[leg].qd(1) = legData->qd_hip[leg];
     datas[leg].qd(2) = legData->qd_knee[leg];
 
+    printf("in leg %d update \n", leg);
+
     // J and p 雅可比和足端位置
     //computeLegJacobianAndPosition<T>(_quadruped, datas[leg].q, &(datas[leg].J),
     //                                 &(datas[leg].p), leg);
     
     computeLegJacobianAndPosition2(datas[leg].q, &(datas[leg].J),
                                     &(datas[leg].p), leg);
+    
+    printf("here \n");
     // v 足端速度
     datas[leg].v = datas[leg].J * datas[leg].qd;
+
+    printf("the end of leg update \n");
+
   }
   // std::cout << "leg qd = " << std::endl;
   // for(int leg = 0; leg<4; leg++) {
@@ -232,8 +239,8 @@ void LegController<T>::updateCommand2(LegCommand* legCommand,
     legTorque += datas[leg].J.transpose() * force_t;
 
     //计算期望关节角度
-    computeLegIK(_quadruped, commands[leg].pDes, &(commands[leg].qDes), leg);
-
+    //computeLegIK(_quadruped, commands[leg].pDes, &(commands[leg].qDes), leg);
+    computeLegIK2(commands[leg].pDes, &(commands[leg].qDes), leg);
     if (leg == 1 || leg == 3) {
       legCommand->tau_abad_ff[leg] =
           1*crtlParam(2) * (0.0 - datas[leg].q(0)) -
@@ -291,9 +298,12 @@ void LegController<T>::updateCommand2(LegCommand* legCommand,
 
 template <typename T>
 void LegController<T>::computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Vec3<T>* p, int leg){
-  VectorNd q_rbdl, qd_rbdl;
+  //VectorNd q_rbdl, qd_rbdl;
+  VectorNd q_rbdl;
   q_rbdl       = VectorNd::Zero (_ironhorse->dof_count);
-  qd_rbdl      = VectorNd::Zero (_ironhorse->dof_count);
+  //qd_rbdl      = VectorNd::Zero (_ironhorse->dof_count);
+
+  printf("this is leg %d \n", leg);
 
   //模型对应
   int index;
@@ -313,25 +323,119 @@ void LegController<T>::computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Ve
     cout << "wrong leg number" << endl;
   }
 
+  printf("index is %d \n", index);
+
   for(int i=0;i<3;i++){
     q_rbdl(3*index+i) = q(i);
   }
   
   Vector3d leg_point(0,0,-0.372);   //机器人足端相对于膝关节坐标系的位置
+  //Vector3d leg_point(0,0,-0.195);
   Vector3d p_rbdl;
-  MatrixNd G = MatrixNd(MatrixNd::Zero(3, 3));
+  MatrixNd G = MatrixNd(MatrixNd::Zero(3, _ironhorse->dof_count));
   p_rbdl = CalcBodyToBaseCoordinates(*_ironhorse, q_rbdl, 3*index+3, leg_point);
-  CalcPointJacobian(*_ironhorse, q_rbdl, 3*index+3, leg_point, G);
+  CalcPointJacobian(*_ironhorse, q_rbdl, 3*index+3, leg_point, G, false);
+  //CalcBodySpatialJacobian(*_ironhorse, q_rbdl, 3*index+3, G, false);
 
-  for(int i=0;i<3;i++){
-    p->operator()(i) = p_rbdl(i);
-    for(int j=0;j<3;j++){
-      J->operator()(3*i+j) = G(3*i+j);
-    }
+  Vec3<T> p_t = _quadruped.getHipLocation(leg);
+
+  if(p){
+    p->operator()(0) = p_rbdl(0) - p_t(0);
+    p->operator()(1) = p_rbdl(1) - p_t(1);
+    p->operator()(2) = p_rbdl(2) - p_t(2);
+    // for(int i=0;i<3;i++){
+    //   p->operator()(i) = p_rbdl(i);
+    // }
   }
+
+  if(J){
+    J->operator()(0, 0) = G(0, 3*index+0);
+    J->operator()(0, 1) = G(0, 3*index+1);
+    J->operator()(0, 2) = G(0, 3*index+2);
+    J->operator()(1, 0) = G(1, 3*index+0);
+    J->operator()(1, 1) = G(1, 3*index+1);
+    J->operator()(1, 2) = G(1, 3*index+2);
+    J->operator()(2, 0) = G(2, 3*index+0);
+    J->operator()(2, 1) = G(2, 3*index+1);
+    J->operator()(2, 2) = G(2, 3*index+2);
+    // for(int i=0;i<3;i++){
+    //   for(int j=0;j<3;j++){
+    //     J->operator()(i, j) = G(i, j);
+    //   }
+    // }
+  }
+
+  printf("%f | %f | %f \n", G(0,3*index+0), G(0,3*index+1), G(0,3*index+2));
+
+  printf("compute done \n");
 
 }
 
+template <typename T>
+void LegController<T>::computeLegIK2(Vec3<T>& pDes, Vec3<T>* qDes, int leg){
+  VectorNd q_init;
+  VectorNd q_target;
+  q_target = VectorNd::Zero (_ironhorse->dof_count);
+  q_init = VectorNd::Zero (_ironhorse->dof_count);
+  q_init(0) = 0;
+  q_init(1) = 0.8;
+  q_init(2) = -1.6;
+  q_init(3) = 0;
+  q_init(4) = 0.8;
+  q_init(5) = -1.6;
+  q_init(6) = 0;
+  q_init(7) = 0.8;
+  q_init(8) = -1.6;
+  q_init(9) = 0;
+  q_init(10) = 0.8;
+  q_init(11) = -1.6;
+
+  vector<unsigned int> body_ids;
+  vector<Vector3d> body_points;
+  vector<Vector3d> target_pos;
+
+  //模型对应
+  int index;
+  if(0 == leg){
+    index = 1;
+  }
+  else if(1 == leg){
+    index = 0;
+  }
+  else if(2 == leg){
+    index = 3;
+  }
+  else if(3 == leg){
+    index = 2;
+  }
+  else{
+    cout << "wrong leg number" << endl;
+  }
+
+  Vec3<T> p_t = _quadruped.getHipLocation(leg);
+
+  unsigned int body_id = 3*index+3;
+  //Vector3d leg_point = Vector3d(0,0,-0.195);
+  Vector3d leg_point(0,0,-0.372);   //机器人足端相对于膝关节坐标系的位置
+  Vector3d p_rbdl_target (0., 0., 0.);
+  p_rbdl_target(0) = pDes(0) + p_t(0);
+  p_rbdl_target(1) = pDes(1) + p_t(1);
+  p_rbdl_target(2) = pDes(2) + p_t(2);
+
+  cout << "new target point is: " << p_rbdl_target(0) << "|" << p_rbdl_target(1) << "|" << p_rbdl_target(2) << endl;
+
+  body_ids.push_back (body_id);
+  body_points.push_back (leg_point);
+  target_pos.push_back (p_rbdl_target);
+  InverseKinematics(*_ironhorse, q_init, body_ids, body_points, target_pos, q_target);
+
+  qDes->operator()(0) = q_target(3*index);
+  qDes->operator()(1) = q_target(3*index+1);
+  qDes->operator()(2) = q_target(3*index+2);
+
+  printf("invers kinematcs done \n");
+
+}
 
 template struct LegControllerCommand<double>;
 template struct LegControllerCommand<float>;

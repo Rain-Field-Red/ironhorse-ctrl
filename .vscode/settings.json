@@ -5,6 +5,7 @@
         "random": "cpp",
         "*.ipp": "cpp",
         "*.tcc": "cpp",
-        "matrixfunctions": "cpp"
+        "matrixfunctions": "cpp",
+        "functional": "cpp"
     }
 }

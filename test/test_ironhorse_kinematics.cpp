@@ -103,6 +103,12 @@ int main (int argc, char* argv[]) {
     CalcPointJacobian(*model, q, 3, leg_point, G);
     cout << G << endl;
 
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            cout << G(i,j) << endl;
+        }
+    }
+
     Vector3d qd_t(0.1,0,0);
     Vector3d v;
     v = G*qd_t;

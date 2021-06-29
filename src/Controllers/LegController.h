@@ -100,6 +100,7 @@ class LegController {
   // command);
 
   void computeLegJacobianAndPosition2(Vec3<T>& q, Mat3<T>* J, Vec3<T>* p, int leg);
+  void computeLegIK2(Vec3<T>& pDes, Vec3<T>* qDes, int leg);
 
   /*!
    * Set the maximum torque.  This only works on cheetah 3!

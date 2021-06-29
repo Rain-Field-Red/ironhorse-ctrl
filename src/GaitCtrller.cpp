@@ -63,9 +63,11 @@ void GaitCtrller::SetIMUData(double* imuData) {
   _vectorNavData.gyro(0, 0) = imuData[7];
   _vectorNavData.gyro(1, 0) = imuData[8];
   _vectorNavData.gyro(2, 0) = imuData[9];
+  printf("imu data can be set \n");
 }
 
 void GaitCtrller::SetLegData(double* motorData) {
+  printf("set legdata \n");
   for (int i = 0; i < 4; i++) {
     _legdata.q_abad[i] = motorData[i * 3];
     _legdata.q_hip[i] = motorData[i * 3 + 1];
@@ -74,13 +76,18 @@ void GaitCtrller::SetLegData(double* motorData) {
     _legdata.qd_hip[i] = motorData[12 + i * 3 + 1];
     _legdata.qd_knee[i] = motorData[12 + i * 3 + 2];
   }
+
+  printf("leg data can be set \n");
 }
 
 void GaitCtrller::PreWork(double* imuData, double* motorData) {
   SetIMUData(imuData);
   SetLegData(motorData);
+  printf("befor estimator run \n");
   _stateEstimator->run();
+  printf("after estimator run \n");
   _legController->updateData(&_legdata);
+  printf("after update");
 }
 
 void GaitCtrller::SetGaitType(int gaitType) {
@@ -145,8 +152,12 @@ void GaitCtrller::ToqueCalculator(double* imuData, double* motorData,
     _legdata.qd_knee[i] = motorData[12 + i * 3 + 2];
   }
 
+  printf("befor state estimator run in run \n");
+
   // state estimator
   _stateEstimator->run();
+
+  printf("test");
 
   // Update the data from the robot
   _legController->updateData(&_legdata);
