@@ -1,4 +1,4 @@
-# Install script for directory: /home/eric/ironhorse-ctrl
+# Install script for directory: /home/eric/big-ironhorse-ctrl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/eric/ironhorse-ctrl/build/src/qpOASES/cmake_install.cmake")
-  include("/home/eric/ironhorse-ctrl/build/src/JCQP/cmake_install.cmake")
-  include("/home/eric/ironhorse-ctrl/build/src/osqp/cmake_install.cmake")
+  include("/home/eric/big-ironhorse-ctrl/build/src/qpOASES/cmake_install.cmake")
+  include("/home/eric/big-ironhorse-ctrl/build/src/JCQP/cmake_install.cmake")
+  include("/home/eric/big-ironhorse-ctrl/build/src/osqp/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eric/ironhorse-ctrl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eric/big-ironhorse-ctrl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

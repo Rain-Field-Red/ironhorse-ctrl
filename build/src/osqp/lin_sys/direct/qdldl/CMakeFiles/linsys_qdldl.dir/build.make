@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 # Include any dependencies generated for this target.
 include src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/depend.make
@@ -59,16 +59,16 @@ include src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o.requires:
 
@@ -83,16 +83,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o.prov
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o.requires:
 
@@ -107,16 +107,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o.prov
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o.requires:
 
@@ -131,16 +131,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o.pr
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o.requires:
 
@@ -155,16 +155,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o.requires:
 
@@ -179,16 +179,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o.requires:
 
@@ -203,16 +203,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o.p
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o.requires:
 
@@ -227,16 +227,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o.
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o.requires:
 
@@ -251,16 +251,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o.requires:
 
@@ -275,16 +275,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o.requires:
 
@@ -299,16 +299,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c > CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o.requires:
 
@@ -323,16 +323,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o.
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o: ../src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c > CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c > CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c -o CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c -o CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o.requires:
 
@@ -347,16 +347,16 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_co
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o: src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o: ../src/osqp/lin_sys/direct/qdldl/qdldl_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c > CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c > CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.i
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c -o CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c -o CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.s
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o.requires:
 
@@ -408,10 +408,10 @@ src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/requires: src/osqp/lin
 .PHONY : src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/requires
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/clean:
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && $(CMAKE_COMMAND) -P CMakeFiles/linsys_qdldl.dir/cmake_clean.cmake
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl && $(CMAKE_COMMAND) -P CMakeFiles/linsys_qdldl.dir/cmake_clean.cmake
 .PHONY : src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/clean
 
 src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/osqp/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/depend
 

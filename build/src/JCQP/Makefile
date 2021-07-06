@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eric/ironhorse-ctrl/build/CMakeFiles /home/eric/ironhorse-ctrl/build/src/JCQP/CMakeFiles/progress.marks
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/ironhorse-ctrl/build/CMakeFiles 0
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eric/big-ironhorse-ctrl/build/CMakeFiles /home/eric/big-ironhorse-ctrl/build/src/JCQP/CMakeFiles/progress.marks
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/big-ironhorse-ctrl/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/clean
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/preinstall
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/preinstall
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/JCQP/CMakeFiles/JCQP.dir/rule:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/CMakeFiles/JCQP.dir/rule
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f CMakeFiles/Makefile2 src/JCQP/CMakeFiles/JCQP.dir/rule
 .PHONY : src/JCQP/CMakeFiles/JCQP.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ JCQP: src/JCQP/CMakeFiles/JCQP.dir/rule
 
 # fast build rule for target.
 JCQP/fast:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/build
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/build
 .PHONY : JCQP/fast
 
 CholeskyDenseSolver.o: CholeskyDenseSolver.cpp.o
@@ -177,7 +177,7 @@ CholeskyDenseSolver.o: CholeskyDenseSolver.cpp.o
 
 # target to build an object file
 CholeskyDenseSolver.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o
 .PHONY : CholeskyDenseSolver.cpp.o
 
 CholeskyDenseSolver.i: CholeskyDenseSolver.cpp.i
@@ -186,7 +186,7 @@ CholeskyDenseSolver.i: CholeskyDenseSolver.cpp.i
 
 # target to preprocess a source file
 CholeskyDenseSolver.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i
 .PHONY : CholeskyDenseSolver.cpp.i
 
 CholeskyDenseSolver.s: CholeskyDenseSolver.cpp.s
@@ -195,7 +195,7 @@ CholeskyDenseSolver.s: CholeskyDenseSolver.cpp.s
 
 # target to generate assembly for a file
 CholeskyDenseSolver.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s
 .PHONY : CholeskyDenseSolver.cpp.s
 
 CholeskySparseSolver.o: CholeskySparseSolver.cpp.o
@@ -204,7 +204,7 @@ CholeskySparseSolver.o: CholeskySparseSolver.cpp.o
 
 # target to build an object file
 CholeskySparseSolver.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o
 .PHONY : CholeskySparseSolver.cpp.o
 
 CholeskySparseSolver.i: CholeskySparseSolver.cpp.i
@@ -213,7 +213,7 @@ CholeskySparseSolver.i: CholeskySparseSolver.cpp.i
 
 # target to preprocess a source file
 CholeskySparseSolver.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i
 .PHONY : CholeskySparseSolver.cpp.i
 
 CholeskySparseSolver.s: CholeskySparseSolver.cpp.s
@@ -222,7 +222,7 @@ CholeskySparseSolver.s: CholeskySparseSolver.cpp.s
 
 # target to generate assembly for a file
 CholeskySparseSolver.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s
 .PHONY : CholeskySparseSolver.cpp.s
 
 ProblemGenerator.o: ProblemGenerator.cpp.o
@@ -231,7 +231,7 @@ ProblemGenerator.o: ProblemGenerator.cpp.o
 
 # target to build an object file
 ProblemGenerator.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o
 .PHONY : ProblemGenerator.cpp.o
 
 ProblemGenerator.i: ProblemGenerator.cpp.i
@@ -240,7 +240,7 @@ ProblemGenerator.i: ProblemGenerator.cpp.i
 
 # target to preprocess a source file
 ProblemGenerator.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i
 .PHONY : ProblemGenerator.cpp.i
 
 ProblemGenerator.s: ProblemGenerator.cpp.s
@@ -249,7 +249,7 @@ ProblemGenerator.s: ProblemGenerator.cpp.s
 
 # target to generate assembly for a file
 ProblemGenerator.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s
 .PHONY : ProblemGenerator.cpp.s
 
 QpProblem.o: QpProblem.cpp.o
@@ -258,7 +258,7 @@ QpProblem.o: QpProblem.cpp.o
 
 # target to build an object file
 QpProblem.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o
 .PHONY : QpProblem.cpp.o
 
 QpProblem.i: QpProblem.cpp.i
@@ -267,7 +267,7 @@ QpProblem.i: QpProblem.cpp.i
 
 # target to preprocess a source file
 QpProblem.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.i
 .PHONY : QpProblem.cpp.i
 
 QpProblem.s: QpProblem.cpp.s
@@ -276,7 +276,7 @@ QpProblem.s: QpProblem.cpp.s
 
 # target to generate assembly for a file
 QpProblem.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.s
 .PHONY : QpProblem.cpp.s
 
 SparseMatrixMath.o: SparseMatrixMath.cpp.o
@@ -285,7 +285,7 @@ SparseMatrixMath.o: SparseMatrixMath.cpp.o
 
 # target to build an object file
 SparseMatrixMath.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o
 .PHONY : SparseMatrixMath.cpp.o
 
 SparseMatrixMath.i: SparseMatrixMath.cpp.i
@@ -294,7 +294,7 @@ SparseMatrixMath.i: SparseMatrixMath.cpp.i
 
 # target to preprocess a source file
 SparseMatrixMath.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i
 .PHONY : SparseMatrixMath.cpp.i
 
 SparseMatrixMath.s: SparseMatrixMath.cpp.s
@@ -303,7 +303,7 @@ SparseMatrixMath.s: SparseMatrixMath.cpp.s
 
 # target to generate assembly for a file
 SparseMatrixMath.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s
 .PHONY : SparseMatrixMath.cpp.s
 
 amd/src/SuiteSparse_config.o: amd/src/SuiteSparse_config.c.o
@@ -312,7 +312,7 @@ amd/src/SuiteSparse_config.o: amd/src/SuiteSparse_config.c.o
 
 # target to build an object file
 amd/src/SuiteSparse_config.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o
 .PHONY : amd/src/SuiteSparse_config.c.o
 
 amd/src/SuiteSparse_config.i: amd/src/SuiteSparse_config.c.i
@@ -321,7 +321,7 @@ amd/src/SuiteSparse_config.i: amd/src/SuiteSparse_config.c.i
 
 # target to preprocess a source file
 amd/src/SuiteSparse_config.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i
 .PHONY : amd/src/SuiteSparse_config.c.i
 
 amd/src/SuiteSparse_config.s: amd/src/SuiteSparse_config.c.s
@@ -330,7 +330,7 @@ amd/src/SuiteSparse_config.s: amd/src/SuiteSparse_config.c.s
 
 # target to generate assembly for a file
 amd/src/SuiteSparse_config.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s
 .PHONY : amd/src/SuiteSparse_config.c.s
 
 amd/src/amd_1.o: amd/src/amd_1.c.o
@@ -339,7 +339,7 @@ amd/src/amd_1.o: amd/src/amd_1.c.o
 
 # target to build an object file
 amd/src/amd_1.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o
 .PHONY : amd/src/amd_1.c.o
 
 amd/src/amd_1.i: amd/src/amd_1.c.i
@@ -348,7 +348,7 @@ amd/src/amd_1.i: amd/src/amd_1.c.i
 
 # target to preprocess a source file
 amd/src/amd_1.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.i
 .PHONY : amd/src/amd_1.c.i
 
 amd/src/amd_1.s: amd/src/amd_1.c.s
@@ -357,7 +357,7 @@ amd/src/amd_1.s: amd/src/amd_1.c.s
 
 # target to generate assembly for a file
 amd/src/amd_1.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.s
 .PHONY : amd/src/amd_1.c.s
 
 amd/src/amd_2.o: amd/src/amd_2.c.o
@@ -366,7 +366,7 @@ amd/src/amd_2.o: amd/src/amd_2.c.o
 
 # target to build an object file
 amd/src/amd_2.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o
 .PHONY : amd/src/amd_2.c.o
 
 amd/src/amd_2.i: amd/src/amd_2.c.i
@@ -375,7 +375,7 @@ amd/src/amd_2.i: amd/src/amd_2.c.i
 
 # target to preprocess a source file
 amd/src/amd_2.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.i
 .PHONY : amd/src/amd_2.c.i
 
 amd/src/amd_2.s: amd/src/amd_2.c.s
@@ -384,7 +384,7 @@ amd/src/amd_2.s: amd/src/amd_2.c.s
 
 # target to generate assembly for a file
 amd/src/amd_2.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.s
 .PHONY : amd/src/amd_2.c.s
 
 amd/src/amd_aat.o: amd/src/amd_aat.c.o
@@ -393,7 +393,7 @@ amd/src/amd_aat.o: amd/src/amd_aat.c.o
 
 # target to build an object file
 amd/src/amd_aat.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o
 .PHONY : amd/src/amd_aat.c.o
 
 amd/src/amd_aat.i: amd/src/amd_aat.c.i
@@ -402,7 +402,7 @@ amd/src/amd_aat.i: amd/src/amd_aat.c.i
 
 # target to preprocess a source file
 amd/src/amd_aat.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i
 .PHONY : amd/src/amd_aat.c.i
 
 amd/src/amd_aat.s: amd/src/amd_aat.c.s
@@ -411,7 +411,7 @@ amd/src/amd_aat.s: amd/src/amd_aat.c.s
 
 # target to generate assembly for a file
 amd/src/amd_aat.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s
 .PHONY : amd/src/amd_aat.c.s
 
 amd/src/amd_control.o: amd/src/amd_control.c.o
@@ -420,7 +420,7 @@ amd/src/amd_control.o: amd/src/amd_control.c.o
 
 # target to build an object file
 amd/src/amd_control.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o
 .PHONY : amd/src/amd_control.c.o
 
 amd/src/amd_control.i: amd/src/amd_control.c.i
@@ -429,7 +429,7 @@ amd/src/amd_control.i: amd/src/amd_control.c.i
 
 # target to preprocess a source file
 amd/src/amd_control.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.i
 .PHONY : amd/src/amd_control.c.i
 
 amd/src/amd_control.s: amd/src/amd_control.c.s
@@ -438,7 +438,7 @@ amd/src/amd_control.s: amd/src/amd_control.c.s
 
 # target to generate assembly for a file
 amd/src/amd_control.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.s
 .PHONY : amd/src/amd_control.c.s
 
 amd/src/amd_defaults.o: amd/src/amd_defaults.c.o
@@ -447,7 +447,7 @@ amd/src/amd_defaults.o: amd/src/amd_defaults.c.o
 
 # target to build an object file
 amd/src/amd_defaults.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o
 .PHONY : amd/src/amd_defaults.c.o
 
 amd/src/amd_defaults.i: amd/src/amd_defaults.c.i
@@ -456,7 +456,7 @@ amd/src/amd_defaults.i: amd/src/amd_defaults.c.i
 
 # target to preprocess a source file
 amd/src/amd_defaults.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i
 .PHONY : amd/src/amd_defaults.c.i
 
 amd/src/amd_defaults.s: amd/src/amd_defaults.c.s
@@ -465,7 +465,7 @@ amd/src/amd_defaults.s: amd/src/amd_defaults.c.s
 
 # target to generate assembly for a file
 amd/src/amd_defaults.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s
 .PHONY : amd/src/amd_defaults.c.s
 
 amd/src/amd_info.o: amd/src/amd_info.c.o
@@ -474,7 +474,7 @@ amd/src/amd_info.o: amd/src/amd_info.c.o
 
 # target to build an object file
 amd/src/amd_info.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o
 .PHONY : amd/src/amd_info.c.o
 
 amd/src/amd_info.i: amd/src/amd_info.c.i
@@ -483,7 +483,7 @@ amd/src/amd_info.i: amd/src/amd_info.c.i
 
 # target to preprocess a source file
 amd/src/amd_info.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.i
 .PHONY : amd/src/amd_info.c.i
 
 amd/src/amd_info.s: amd/src/amd_info.c.s
@@ -492,7 +492,7 @@ amd/src/amd_info.s: amd/src/amd_info.c.s
 
 # target to generate assembly for a file
 amd/src/amd_info.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.s
 .PHONY : amd/src/amd_info.c.s
 
 amd/src/amd_order.o: amd/src/amd_order.c.o
@@ -501,7 +501,7 @@ amd/src/amd_order.o: amd/src/amd_order.c.o
 
 # target to build an object file
 amd/src/amd_order.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o
 .PHONY : amd/src/amd_order.c.o
 
 amd/src/amd_order.i: amd/src/amd_order.c.i
@@ -510,7 +510,7 @@ amd/src/amd_order.i: amd/src/amd_order.c.i
 
 # target to preprocess a source file
 amd/src/amd_order.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.i
 .PHONY : amd/src/amd_order.c.i
 
 amd/src/amd_order.s: amd/src/amd_order.c.s
@@ -519,7 +519,7 @@ amd/src/amd_order.s: amd/src/amd_order.c.s
 
 # target to generate assembly for a file
 amd/src/amd_order.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.s
 .PHONY : amd/src/amd_order.c.s
 
 amd/src/amd_post_tree.o: amd/src/amd_post_tree.c.o
@@ -528,7 +528,7 @@ amd/src/amd_post_tree.o: amd/src/amd_post_tree.c.o
 
 # target to build an object file
 amd/src/amd_post_tree.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o
 .PHONY : amd/src/amd_post_tree.c.o
 
 amd/src/amd_post_tree.i: amd/src/amd_post_tree.c.i
@@ -537,7 +537,7 @@ amd/src/amd_post_tree.i: amd/src/amd_post_tree.c.i
 
 # target to preprocess a source file
 amd/src/amd_post_tree.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i
 .PHONY : amd/src/amd_post_tree.c.i
 
 amd/src/amd_post_tree.s: amd/src/amd_post_tree.c.s
@@ -546,7 +546,7 @@ amd/src/amd_post_tree.s: amd/src/amd_post_tree.c.s
 
 # target to generate assembly for a file
 amd/src/amd_post_tree.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s
 .PHONY : amd/src/amd_post_tree.c.s
 
 amd/src/amd_postorder.o: amd/src/amd_postorder.c.o
@@ -555,7 +555,7 @@ amd/src/amd_postorder.o: amd/src/amd_postorder.c.o
 
 # target to build an object file
 amd/src/amd_postorder.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o
 .PHONY : amd/src/amd_postorder.c.o
 
 amd/src/amd_postorder.i: amd/src/amd_postorder.c.i
@@ -564,7 +564,7 @@ amd/src/amd_postorder.i: amd/src/amd_postorder.c.i
 
 # target to preprocess a source file
 amd/src/amd_postorder.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i
 .PHONY : amd/src/amd_postorder.c.i
 
 amd/src/amd_postorder.s: amd/src/amd_postorder.c.s
@@ -573,7 +573,7 @@ amd/src/amd_postorder.s: amd/src/amd_postorder.c.s
 
 # target to generate assembly for a file
 amd/src/amd_postorder.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s
 .PHONY : amd/src/amd_postorder.c.s
 
 amd/src/amd_preprocess.o: amd/src/amd_preprocess.c.o
@@ -582,7 +582,7 @@ amd/src/amd_preprocess.o: amd/src/amd_preprocess.c.o
 
 # target to build an object file
 amd/src/amd_preprocess.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o
 .PHONY : amd/src/amd_preprocess.c.o
 
 amd/src/amd_preprocess.i: amd/src/amd_preprocess.c.i
@@ -591,7 +591,7 @@ amd/src/amd_preprocess.i: amd/src/amd_preprocess.c.i
 
 # target to preprocess a source file
 amd/src/amd_preprocess.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i
 .PHONY : amd/src/amd_preprocess.c.i
 
 amd/src/amd_preprocess.s: amd/src/amd_preprocess.c.s
@@ -600,7 +600,7 @@ amd/src/amd_preprocess.s: amd/src/amd_preprocess.c.s
 
 # target to generate assembly for a file
 amd/src/amd_preprocess.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s
 .PHONY : amd/src/amd_preprocess.c.s
 
 amd/src/amd_valid.o: amd/src/amd_valid.c.o
@@ -609,7 +609,7 @@ amd/src/amd_valid.o: amd/src/amd_valid.c.o
 
 # target to build an object file
 amd/src/amd_valid.c.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o
 .PHONY : amd/src/amd_valid.c.o
 
 amd/src/amd_valid.i: amd/src/amd_valid.c.i
@@ -618,7 +618,7 @@ amd/src/amd_valid.i: amd/src/amd_valid.c.i
 
 # target to preprocess a source file
 amd/src/amd_valid.c.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i
 .PHONY : amd/src/amd_valid.c.i
 
 amd/src/amd_valid.s: amd/src/amd_valid.c.s
@@ -627,7 +627,7 @@ amd/src/amd_valid.s: amd/src/amd_valid.c.s
 
 # target to generate assembly for a file
 amd/src/amd_valid.c.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s
 .PHONY : amd/src/amd_valid.c.s
 
 eigenvalues.o: eigenvalues.cpp.o
@@ -636,7 +636,7 @@ eigenvalues.o: eigenvalues.cpp.o
 
 # target to build an object file
 eigenvalues.cpp.o:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o
 .PHONY : eigenvalues.cpp.o
 
 eigenvalues.i: eigenvalues.cpp.i
@@ -645,7 +645,7 @@ eigenvalues.i: eigenvalues.cpp.i
 
 # target to preprocess a source file
 eigenvalues.cpp.i:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.i
 .PHONY : eigenvalues.cpp.i
 
 eigenvalues.s: eigenvalues.cpp.s
@@ -654,7 +654,7 @@ eigenvalues.s: eigenvalues.cpp.s
 
 # target to generate assembly for a file
 eigenvalues.cpp.s:
-	cd /home/eric/ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build && $(MAKE) -f src/JCQP/CMakeFiles/JCQP.dir/build.make src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.s
 .PHONY : eigenvalues.cpp.s
 
 # Help Target
@@ -735,6 +735,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

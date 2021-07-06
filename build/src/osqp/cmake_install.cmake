@@ -1,4 +1,4 @@
-# Install script for directory: /home/eric/ironhorse-ctrl/src/osqp
+# Install script for directory: /home/eric/big-ironhorse-ctrl/src/osqp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/eric/ironhorse-ctrl/build/src/osqp/out/libosqp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/eric/big-ironhorse-ctrl/build/src/osqp/out/libosqp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -55,21 +55,21 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/osqp" TYPE FILE FILES
-    "/home/eric/ironhorse-ctrl/src/osqp/include/auxil.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/constants.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/cs.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/ctrlc.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/glob_opts.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/kkt.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/lin_alg.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/lin_sys.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/osqp.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/osqp_configure.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/types.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/polish.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/proj.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/scaling.h"
-    "/home/eric/ironhorse-ctrl/src/osqp/include/util.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/auxil.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/constants.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/cs.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/ctrlc.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/glob_opts.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/kkt.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/lin_alg.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/lin_sys.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/osqp.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/osqp_configure.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/types.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/polish.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/proj.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/scaling.h"
+    "/home/eric/big-ironhorse-ctrl/src/osqp/include/util.h"
     )
 endif()
 
@@ -80,7 +80,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/eric/ironhorse-ctrl/build/src/osqp/out/libosqp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/eric/big-ironhorse-ctrl/build/src/osqp/out/libosqp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libosqp.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -93,7 +93,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp/osqp-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp/osqp-targets.cmake"
-         "/home/eric/ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake")
+         "/home/eric/big-ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp/osqp-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -102,19 +102,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/big-ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/big-ironhorse-ctrl/build/src/osqp/CMakeFiles/Export/lib/cmake/osqp/osqp-targets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/ironhorse-ctrl/build/src/osqp/osqp-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/osqp" TYPE FILE FILES "/home/eric/big-ironhorse-ctrl/build/src/osqp/osqp-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/cmake_install.cmake")
+  include("/home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/cmake_install.cmake")
 
 endif()
 

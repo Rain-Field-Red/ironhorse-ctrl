@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ironhorse_ctrl.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ironhorse_ctrl.dir/flags.make
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o: ../src/MPC_Ctrl/ConvexMPCLocomotion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o.provides.bu
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o: ../src/MPC_Ctrl/Gait.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o: ../src/MPC_Ctrl/SparseCMPC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o.provides.build: CMak
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o: ../src/MPC_Ctrl/SparseCMPC_Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o.provides.build:
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o: ../src/MPC_Ctrl/OsqpTriples.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o.provides.build: CMa
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o: ../src/MPC_Ctrl/convexMPC_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o.provides.bu
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o: ../src/MPC_Ctrl/SolverMPC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o.provides.build: CMake
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o: ../src/MPC_Ctrl/RobotState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o -c /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o -c /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp > CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o.provides.build: CMak
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o: ../src/Controllers/FootSwingTrajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o.provides
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o: ../src/Controllers/LegController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/LegController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/LegController.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/LegController.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o.provides.build
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o: ../src/Controllers/DesiredStateCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o.provides
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o: ../src/Controllers/OrientationEstimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o.provide
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o: ../src/Controllers/PositionVelocityEstimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o.pr
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o: ../src/Controllers/SafetyChecker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o -c /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o.provides.build
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o: ../src/Dynamics/Quadruped.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o -c /home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o.provides.build: CMake
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o: ../src/Dynamics/FloatingBaseModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o -c /home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o -c /home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp > CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o.provides.buil
 
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: CMakeFiles/ironhorse_ctrl.dir/flags.make
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/GaitCtrller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o -c /home/eric/ironhorse-ctrl/src/GaitCtrller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o -c /home/eric/big-ironhorse-ctrl/src/GaitCtrller.cpp
 
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/GaitCtrller.cpp > CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/GaitCtrller.cpp > CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.i
 
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/GaitCtrller.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/GaitCtrller.cpp -o CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.s
 
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o.requires:
 
@@ -512,7 +512,7 @@ libironhorse_ctrl.so: src/osqp/out/libosqp.so
 libironhorse_ctrl.so: /usr/local/lib/librbdl.so
 libironhorse_ctrl.so: /usr/local/lib/librbdl_urdfreader.so
 libironhorse_ctrl.so: CMakeFiles/ironhorse_ctrl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libironhorse_ctrl.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libironhorse_ctrl.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ironhorse_ctrl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -545,6 +545,6 @@ CMakeFiles/ironhorse_ctrl.dir/clean:
 .PHONY : CMakeFiles/ironhorse_ctrl.dir/clean
 
 CMakeFiles/ironhorse_ctrl.dir/depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build/CMakeFiles/ironhorse_ctrl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build/CMakeFiles/ironhorse_ctrl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ironhorse_ctrl.dir/depend
 

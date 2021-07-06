@@ -508,21 +508,21 @@ qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
 
 ../src/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
 
-/home/eric/ironhorse-ctrl/src/Controllers/ContactEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ContactEstimator.h
 Controllers/StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/ControlFSMData.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ControlFSMData.h
 LegController.h
-/home/eric/ironhorse-ctrl/src/Controllers/LegController.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
 StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
 DesiredStateCommand.h
-/home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/ControlParameters.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ControlParameters.h
 map
 -
 mutex
@@ -530,37 +530,37 @@ mutex
 string
 -
 Utilities/utilities.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/utilities.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/utilities.h
 Utilities/cTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/cTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/cTypes.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
 DesiredStateCommand.h
-/home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
 iostream
 -
 vector
 -
 StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
 Utilities/Interpolation.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/Interpolation.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/Interpolation.h
 FootSwingTrajectory.h
-/home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/LegController.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/LegController.cpp
 Controllers/LegController.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/LegController.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/LegController.h
 math.h
 -
 sys/time.h
@@ -570,71 +570,77 @@ fstream
 vector
 -
 
-/home/eric/ironhorse-ctrl/src/Controllers/LegController.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
 RobotLegState.h
-/home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
 rbdl/rbdl.h
 -
 rbdl/addons/urdfreader/urdfreader.h
 -
 
-/home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
 Controllers/OrientationEstimator.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/OrientationEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/OrientationEstimator.h
 iostream
 -
 
-/home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.h
 Controllers/StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
 Controllers/PositionVelocityEstimator.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/PositionVelocityEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/PositionVelocityEstimator.h
 fstream
 -
 
-/home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
 Controllers/StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Controllers/StateEstimatorContainer.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/cppTypes.h
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/RobotParameters.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/RobotParameters.h
 ControlParameters.h
-/home/eric/ironhorse-ctrl/src/Controllers/ControlParameters.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ControlParameters.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
+/home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
 SafetyChecker.h
-/home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.h
 iostream
 -
 StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
 LegController.h
-/home/eric/ironhorse-ctrl/src/Controllers/LegController.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Dynamics/Quadruped.h
 
-/home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
 RobotParameters.h
-/home/eric/ironhorse-ctrl/src/Controllers/RobotParameters.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/RobotParameters.h
 LegController.h
-/home/eric/ironhorse-ctrl/src/Controllers/LegController.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
 Utilities/IMUTypes.h
-/home/eric/ironhorse-ctrl/src/Controllers/Utilities/IMUTypes.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/Utilities/IMUTypes.h
 
-/home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
+/home/eric/big-ironhorse-ctrl/src/Dynamics/BigIronHorse.h
+Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/FloatingBaseModel.h
+Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/Quadruped.h
+
+/home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
 stdio.h
 -
 stdexcept
@@ -644,63 +650,63 @@ string
 vector
 -
 Dynamics/FloatingBaseModel.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/FloatingBaseModel.h
 Utilities/orientation_tools.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
 Utilities/Utilities_print.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Utilities/Utilities_print.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Utilities/Utilities_print.h
 
-/home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
 string
 -
 vector
 -
 Utilities/orientation_tools.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
 Dynamics/SpatialInertia.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/SpatialInertia.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/SpatialInertia.h
 Dynamics/spatial.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/spatial.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/spatial.h
 eigen3/Eigen/StdVector
 -
 
-/home/eric/ironhorse-ctrl/src/Dynamics/IronHorse.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/IronHorse.h
 Dynamics/FloatingBaseModel.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/FloatingBaseModel.h
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/Quadruped.h
 
-/home/eric/ironhorse-ctrl/src/Dynamics/MiniCheetah.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/MiniCheetah.h
 FloatingBaseModel.h
-/home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
 Quadruped.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.h
 
-/home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.cpp
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.cpp
 Dynamics/Quadruped.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/Quadruped.h
 Dynamics/spatial.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Dynamics/spatial.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Dynamics/spatial.h
 Utilities/orientation_tools.h
-/home/eric/ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Utilities/orientation_tools.h
 
-/home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.h
 vector
 -
 ActuatorModel.h
-/home/eric/ironhorse-ctrl/src/Dynamics/ActuatorModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/ActuatorModel.h
 FloatingBaseModel.h
-/home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
 SpatialInertia.h
-/home/eric/ironhorse-ctrl/src/Dynamics/SpatialInertia.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/SpatialInertia.h
 eigen3/Eigen/StdVector
 -
 
-/home/eric/ironhorse-ctrl/src/GaitCtrller.cpp
+/home/eric/big-ironhorse-ctrl/src/GaitCtrller.cpp
 GaitCtrller.h
-/home/eric/ironhorse-ctrl/src/GaitCtrller.h
+/home/eric/big-ironhorse-ctrl/src/GaitCtrller.h
 
-/home/eric/ironhorse-ctrl/src/GaitCtrller.h
+/home/eric/big-ironhorse-ctrl/src/GaitCtrller.h
 math.h
 -
 time.h
@@ -710,55 +716,57 @@ iostream
 string
 -
 Controllers/ContactEstimator.h
-/home/eric/ironhorse-ctrl/src/Controllers/ContactEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ContactEstimator.h
 Controllers/ControlFSMData.h
-/home/eric/ironhorse-ctrl/src/Controllers/ControlFSMData.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/ControlFSMData.h
 Controllers/DesiredStateCommand.h
-/home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
 Controllers/OrientationEstimator.h
-/home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.h
 Controllers/PositionVelocityEstimator.h
-/home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
 Controllers/RobotLegState.h
-/home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
 Controllers/StateEstimatorContainer.h
-/home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
 Controllers/SafetyChecker.h
-/home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.h
+/home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.h
 Dynamics/MiniCheetah.h
-/home/eric/ironhorse-ctrl/src/Dynamics/MiniCheetah.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/MiniCheetah.h
 MPC_Ctrl/ConvexMPCLocomotion.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
 Utilities/IMUTypes.h
-/home/eric/ironhorse-ctrl/src/Utilities/IMUTypes.h
+/home/eric/big-ironhorse-ctrl/src/Utilities/IMUTypes.h
 calculateTool.h
-/home/eric/ironhorse-ctrl/src/calculateTool.h
+/home/eric/big-ironhorse-ctrl/src/calculateTool.h
 Dynamics/IronHorse.h
-/home/eric/ironhorse-ctrl/src/Dynamics/IronHorse.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/IronHorse.h
+Dynamics/BigIronHorse.h
+/home/eric/big-ironhorse-ctrl/src/Dynamics/BigIronHorse.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
 ConvexMPCLocomotion.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
 iostream
 -
 Utilities/Timer.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/Timer.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/Timer.h
 Utilities/Utilities_print.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/Utilities_print.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/Utilities_print.h
 convexMPC_interface.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
 Controllers/FootSwingTrajectory.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Controllers/FootSwingTrajectory.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Controllers/FootSwingTrajectory.h
 Controllers/ControlFSMData.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Controllers/ControlFSMData.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Controllers/ControlFSMData.h
 SparseCMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
 Gait.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
 fstream
 -
 sys/time.h
@@ -768,37 +776,37 @@ cstdio
 vector
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
 Gait.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
 iostream
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
 string
 -
 queue
 -
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
 vector
 -
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
 SparseCMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 osqp/include/osqp.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/osqp/include/osqp.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/osqp/include/osqp.h
 Utilities/Timer.h
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
 RobotState.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
 eigen3/Eigen/Dense
 -
 iostream
@@ -806,19 +814,19 @@ iostream
 math.h
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
 eigen3/Eigen/Dense
 -
 Utilities/common_types.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
 SolverMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
 convexMPC_interface.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 RobotState.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
 eigen3/Eigen/Dense
 -
 cmath
@@ -836,51 +844,51 @@ Utilities/Timer.h
 JCQP/QpProblem.h
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
 eigen3/Eigen/Dense
 -
 Utilities/common_types.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
 convexMPC_interface.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 iostream
 -
 stdio.h
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
 SparseCMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 Utilities/orientation_tools.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/orientation_tools.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/orientation_tools.h
 Utilities/Timer.h
 -
 JCQP/QpProblem.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/JCQP/QpProblem.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/JCQP/QpProblem.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 GraphSearch.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
 Utilities/cppTypes.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/cppTypes.h
 JCQP/SparseMatrixMath.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/JCQP/SparseMatrixMath.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/JCQP/SparseMatrixMath.h
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
 SparseCMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 eigen3/Eigen/Dense
 -
 eigen3/unsupported/Eigen/MatrixFunctions
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
 convexMPC_interface.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 Utilities/common_types.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Utilities/common_types.h
 SolverMPC.h
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
 eigen3/Eigen/Dense
 -
 pthread.h
@@ -890,21 +898,21 @@ stdio.h
 string.h
 -
 
-/home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+/home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 
-/home/eric/ironhorse-ctrl/src/Utilities/IMUTypes.h
+/home/eric/big-ironhorse-ctrl/src/Utilities/IMUTypes.h
 cppTypes.h
-/home/eric/ironhorse-ctrl/src/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Utilities/cppTypes.h
 
-/home/eric/ironhorse-ctrl/src/Utilities/cppTypes.h
+/home/eric/big-ironhorse-ctrl/src/Utilities/cppTypes.h
 vector
 -
 cTypes.h
-/home/eric/ironhorse-ctrl/src/Utilities/cTypes.h
+/home/eric/big-ironhorse-ctrl/src/Utilities/cTypes.h
 eigen3/Eigen/Dense
 -
 
-/home/eric/ironhorse-ctrl/src/calculateTool.h
+/home/eric/big-ironhorse-ctrl/src/calculateTool.h
 math.h
 -
 sys/time.h

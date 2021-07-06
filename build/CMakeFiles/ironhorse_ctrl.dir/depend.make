@@ -1318,6 +1318,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Controllers/RobotLeg
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Controllers/RobotParameters.h
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Controllers/SafetyChecker.h
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Controllers/StateEstimatorContainer.h
+CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Dynamics/BigIronHorse.h
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Dynamics/FloatingBaseModel.h
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Dynamics/IronHorse.h
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o: ../src/Dynamics/MiniCheetah.h

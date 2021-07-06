@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 # Include any dependencies generated for this target.
 include src/JCQP/CMakeFiles/JCQP.dir/depend.make
@@ -59,16 +59,16 @@ include src/JCQP/CMakeFiles/JCQP.dir/flags.make
 
 src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o: ../src/JCQP/QpProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/QpProblem.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/QpProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/QpProblem.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/QpProblem.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/QpProblem.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/QpProblem.cpp > CMakeFiles/JCQP.dir/QpProblem.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/QpProblem.cpp > CMakeFiles/JCQP.dir/QpProblem.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/QpProblem.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/QpProblem.cpp -o CMakeFiles/JCQP.dir/QpProblem.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/QpProblem.cpp -o CMakeFiles/JCQP.dir/QpProblem.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/JCQP/CMakeFiles/JCQP.dir/QpProblem.cpp.o.provides.build: src/JCQP/CMakeFiles
 
 src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o: ../src/JCQP/ProblemGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp > CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp > CMakeFiles/JCQP.dir/ProblemGenerator.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp -o CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/ProblemGenerator.cpp -o CMakeFiles/JCQP.dir/ProblemGenerator.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/JCQP/CMakeFiles/JCQP.dir/ProblemGenerator.cpp.o.provides.build: src/JCQP/CMa
 
 src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o: ../src/JCQP/eigenvalues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/eigenvalues.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/eigenvalues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/eigenvalues.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/eigenvalues.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/eigenvalues.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/eigenvalues.cpp > CMakeFiles/JCQP.dir/eigenvalues.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/eigenvalues.cpp > CMakeFiles/JCQP.dir/eigenvalues.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/eigenvalues.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/eigenvalues.cpp -o CMakeFiles/JCQP.dir/eigenvalues.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/eigenvalues.cpp -o CMakeFiles/JCQP.dir/eigenvalues.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/JCQP/CMakeFiles/JCQP.dir/eigenvalues.cpp.o.provides.build: src/JCQP/CMakeFil
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o: ../src/JCQP/CholeskyDenseSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp > CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp > CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp -o CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskyDenseSolver.cpp -o CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/JCQP/CMakeFiles/JCQP.dir/CholeskyDenseSolver.cpp.o.provides.build: src/JCQP/
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o: ../src/JCQP/CholeskySparseSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp > CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp > CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp -o CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/CholeskySparseSolver.cpp -o CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/JCQP/CMakeFiles/JCQP.dir/CholeskySparseSolver.cpp.o.provides.build: src/JCQP
 
 src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o: ../src/JCQP/SparseMatrixMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o -c /home/eric/ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o -c /home/eric/big-ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp
 
 src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp > CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp > CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.i
 
 src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp -o CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/SparseMatrixMath.cpp -o CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.s
 
 src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/JCQP/CMakeFiles/JCQP.dir/SparseMatrixMath.cpp.o.provides.build: src/JCQP/CMa
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o: ../src/JCQP/amd/src/amd_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_1.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_1.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_1.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_1.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_1.c > CMakeFiles/JCQP.dir/amd/src/amd_1.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_1.c > CMakeFiles/JCQP.dir/amd/src/amd_1.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_1.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_1.c -o CMakeFiles/JCQP.dir/amd/src/amd_1.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_1.c -o CMakeFiles/JCQP.dir/amd/src/amd_1.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o.requires:
 
@@ -227,16 +227,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_1.c.o.provides.build: src/JCQP/CMakeFil
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o: ../src/JCQP/amd/src/amd_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_2.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_2.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_2.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_2.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_2.c > CMakeFiles/JCQP.dir/amd/src/amd_2.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_2.c > CMakeFiles/JCQP.dir/amd/src/amd_2.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_2.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_2.c -o CMakeFiles/JCQP.dir/amd/src/amd_2.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_2.c -o CMakeFiles/JCQP.dir/amd/src/amd_2.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o.requires:
 
@@ -251,16 +251,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_2.c.o.provides.build: src/JCQP/CMakeFil
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o: ../src/JCQP/amd/src/amd_aat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c > CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c > CMakeFiles/JCQP.dir/amd/src/amd_aat.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c -o CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_aat.c -o CMakeFiles/JCQP.dir/amd/src/amd_aat.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o.requires:
 
@@ -275,16 +275,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_aat.c.o.provides.build: src/JCQP/CMakeF
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o: ../src/JCQP/amd/src/amd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_control.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_control.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_control.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_control.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_control.c > CMakeFiles/JCQP.dir/amd/src/amd_control.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_control.c > CMakeFiles/JCQP.dir/amd/src/amd_control.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_control.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_control.c -o CMakeFiles/JCQP.dir/amd/src/amd_control.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_control.c -o CMakeFiles/JCQP.dir/amd/src/amd_control.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o.requires:
 
@@ -299,16 +299,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_control.c.o.provides.build: src/JCQP/CM
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o: ../src/JCQP/amd/src/amd_defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c > CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c > CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c -o CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_defaults.c -o CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o.requires:
 
@@ -323,16 +323,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_defaults.c.o.provides.build: src/JCQP/C
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o: ../src/JCQP/amd/src/amd_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_info.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_info.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_info.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_info.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_info.c > CMakeFiles/JCQP.dir/amd/src/amd_info.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_info.c > CMakeFiles/JCQP.dir/amd/src/amd_info.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_info.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_info.c -o CMakeFiles/JCQP.dir/amd/src/amd_info.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_info.c -o CMakeFiles/JCQP.dir/amd/src/amd_info.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o.requires:
 
@@ -347,16 +347,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_info.c.o.provides.build: src/JCQP/CMake
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o: ../src/JCQP/amd/src/amd_order.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_order.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_order.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_order.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_order.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_order.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_order.c > CMakeFiles/JCQP.dir/amd/src/amd_order.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_order.c > CMakeFiles/JCQP.dir/amd/src/amd_order.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_order.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_order.c -o CMakeFiles/JCQP.dir/amd/src/amd_order.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_order.c -o CMakeFiles/JCQP.dir/amd/src/amd_order.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o.requires:
 
@@ -371,16 +371,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_order.c.o.provides.build: src/JCQP/CMak
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o: ../src/JCQP/amd/src/amd_post_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c > CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c > CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c -o CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_post_tree.c -o CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o.requires:
 
@@ -395,16 +395,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_post_tree.c.o.provides.build: src/JCQP/
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o: ../src/JCQP/amd/src/amd_postorder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c > CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c > CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c -o CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_postorder.c -o CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o.requires:
 
@@ -419,16 +419,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_postorder.c.o.provides.build: src/JCQP/
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o: ../src/JCQP/amd/src/amd_preprocess.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c > CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c > CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c -o CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_preprocess.c -o CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o.requires:
 
@@ -443,16 +443,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_preprocess.c.o.provides.build: src/JCQP
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o: ../src/JCQP/amd/src/amd_valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c > CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c > CMakeFiles/JCQP.dir/amd/src/amd_valid.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c -o CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/amd_valid.c -o CMakeFiles/JCQP.dir/amd/src/amd_valid.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o.requires:
 
@@ -467,16 +467,16 @@ src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o.provides.build: src/JCQP/CMak
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o: src/JCQP/CMakeFiles/JCQP.dir/flags.make
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o: ../src/JCQP/amd/src/SuiteSparse_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o   -c /home/eric/ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o   -c /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c > CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c > CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.i
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c -o CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/JCQP/amd/src/SuiteSparse_config.c -o CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.s
 
 src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o.requires:
 
@@ -533,8 +533,8 @@ src/JCQP/libJCQP.so: src/JCQP/CMakeFiles/JCQP.dir/amd/src/amd_valid.c.o
 src/JCQP/libJCQP.so: src/JCQP/CMakeFiles/JCQP.dir/amd/src/SuiteSparse_config.c.o
 src/JCQP/libJCQP.so: src/JCQP/CMakeFiles/JCQP.dir/build.make
 src/JCQP/libJCQP.so: src/JCQP/CMakeFiles/JCQP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libJCQP.so"
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JCQP.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libJCQP.so"
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JCQP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/JCQP/CMakeFiles/JCQP.dir/build: src/JCQP/libJCQP.so
@@ -563,10 +563,10 @@ src/JCQP/CMakeFiles/JCQP.dir/requires: src/JCQP/CMakeFiles/JCQP.dir/amd/src/Suit
 .PHONY : src/JCQP/CMakeFiles/JCQP.dir/requires
 
 src/JCQP/CMakeFiles/JCQP.dir/clean:
-	cd /home/eric/ironhorse-ctrl/build/src/JCQP && $(CMAKE_COMMAND) -P CMakeFiles/JCQP.dir/cmake_clean.cmake
+	cd /home/eric/big-ironhorse-ctrl/build/src/JCQP && $(CMAKE_COMMAND) -P CMakeFiles/JCQP.dir/cmake_clean.cmake
 .PHONY : src/JCQP/CMakeFiles/JCQP.dir/clean
 
 src/JCQP/CMakeFiles/JCQP.dir/depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl/src/JCQP /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build/src/JCQP /home/eric/ironhorse-ctrl/build/src/JCQP/CMakeFiles/JCQP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl/src/JCQP /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build/src/JCQP /home/eric/big-ironhorse-ctrl/build/src/JCQP/CMakeFiles/JCQP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/JCQP/CMakeFiles/JCQP.dir/depend
 

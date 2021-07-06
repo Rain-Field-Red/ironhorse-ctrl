@@ -1,4 +1,4 @@
-# Install script for directory: /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/pardiso
+# Install script for directory: /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/pardiso
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

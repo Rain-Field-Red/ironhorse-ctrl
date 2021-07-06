@@ -47,7 +47,14 @@ int main (int argc, char* argv[]) {
     //3a. The  model is read in here, and turned into a series of 
     //    vectors and matricies in model which RBDL uses to evaluate 
     //    dynamics quantities
-    if (!Addons::URDFReadFromFile ("../models/iron_horse/iron_horse_simple.urdf", 
+    // if (!Addons::URDFReadFromFile ("../models/iron_horse/iron_horse_simple.urdf", 
+    //                                    model, false)             ){        
+    //     std::cerr     << "Error loading model ./model/pendulum.lua" 
+    //                 << std::endl;
+    //     abort();
+    // }
+
+    if (!Addons::URDFReadFromFile ("../models/big_iron_horse/big_iron_horse_simple.urdf", 
                                        model, false)             ){        
         std::cerr     << "Error loading model ./model/pendulum.lua" 
                     << std::endl;

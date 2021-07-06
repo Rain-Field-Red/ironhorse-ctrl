@@ -228,7 +228,11 @@ void LegController<T>::updateCommand2(LegCommand* legCommand,
     // Vec3<T> footForce(0, 0, 10);
     //footForce.setZero();
 
-    Vec3<T> force_t = 0.8*footForce;
+    //Vec3<T> force_t = 1.2*footForce;
+    Vec3<T> force_t;
+    force_t(0) = 1.2*footForce(0);
+    force_t(1) = 0.2*footForce(1);
+    force_t(2) = 1.5*footForce(2);
     // cartesian PD 直角坐标下pd
     force_t +=
         commands[leg].kpCartesian * (commands[leg].pDes - datas[leg].p);
@@ -378,17 +382,17 @@ void LegController<T>::computeLegIK2(Vec3<T>& pDes, Vec3<T>* qDes, int leg){
   q_target = VectorNd::Zero (_ironhorse->dof_count);
   q_init = VectorNd::Zero (_ironhorse->dof_count);
   q_init(0) = 0;
-  q_init(1) = 0.8;
-  q_init(2) = -1.6;
+  q_init(1) = -0.87;
+  q_init(2) = 1.6;
   q_init(3) = 0;
-  q_init(4) = 0.8;
-  q_init(5) = -1.6;
+  q_init(4) = -0.87;
+  q_init(5) = 1.6;
   q_init(6) = 0;
-  q_init(7) = 0.8;
-  q_init(8) = -1.6;
+  q_init(7) = -0.87;
+  q_init(8) = 1.6;
   q_init(9) = 0;
-  q_init(10) = 0.8;
-  q_init(11) = -1.6;
+  q_init(10) = -0.87;
+  q_init(11) = 1.6;
 
   vector<unsigned int> body_ids;
   vector<Vector3d> body_points;

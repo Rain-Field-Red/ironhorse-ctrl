@@ -1,4 +1,4 @@
-# Install script for directory: /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl
+# Install script for directory: /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/cmake_install.cmake")
+  include("/home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/cmake_install.cmake")
 
 endif()
 

@@ -70,9 +70,9 @@ sys/time.h
 stdio.h
 -
 
-/home/eric/ironhorse-ctrl/src/osqp/examples/osqp_demo.c
+/home/eric/big-ironhorse-ctrl/src/osqp/examples/osqp_demo.c
 stdio.h
-/home/eric/ironhorse-ctrl/src/osqp/examples/stdio.h
+/home/eric/big-ironhorse-ctrl/src/osqp/examples/stdio.h
 osqp.h
-/home/eric/ironhorse-ctrl/src/osqp/examples/osqp.h
+/home/eric/big-ironhorse-ctrl/src/osqp/examples/osqp.h
 

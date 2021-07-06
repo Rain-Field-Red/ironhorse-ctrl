@@ -114,7 +114,7 @@ class StateEstimatorContainer {
   void run() {
     for (auto estimator : _estimators) {
       estimator->run();
-      printf("run estimator i");
+      //printf("run estimator i");
     }
   }
 

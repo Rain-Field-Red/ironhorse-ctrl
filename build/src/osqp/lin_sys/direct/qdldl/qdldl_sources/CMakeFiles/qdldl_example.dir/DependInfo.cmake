@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/example.c" "/home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldl_example.dir/examples/c/example.c.o"
+  "/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/example.c" "/home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldl_example.dir/examples/c/example.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/DependInfo.cmake"
+  "/home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

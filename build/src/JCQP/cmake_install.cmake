@@ -1,4 +1,4 @@
-# Install script for directory: /home/eric/ironhorse-ctrl/src/JCQP
+# Install script for directory: /home/eric/big-ironhorse-ctrl/src/JCQP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

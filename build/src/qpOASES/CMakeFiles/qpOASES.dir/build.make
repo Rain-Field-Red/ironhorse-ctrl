@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 # Include any dependencies generated for this target.
 include src/qpOASES/CMakeFiles/qpOASES.dir/depend.make
@@ -59,16 +59,16 @@ include src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o: ../src/qpOASES/src/BLASReplacement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp > CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp > CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp -o CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/BLASReplacement.cpp -o CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o.provides.build: src
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o: ../src/qpOASES/src/Bounds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Bounds.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Bounds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Bounds.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Bounds.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Bounds.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Bounds.cpp > CMakeFiles/qpOASES.dir/src/Bounds.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Bounds.cpp > CMakeFiles/qpOASES.dir/src/Bounds.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Bounds.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Bounds.cpp -o CMakeFiles/qpOASES.dir/src/Bounds.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Bounds.cpp -o CMakeFiles/qpOASES.dir/src/Bounds.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o.provides.build: src/qpOASES/
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o: ../src/qpOASES/src/Constraints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Constraints.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Constraints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Constraints.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Constraints.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Constraints.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Constraints.cpp > CMakeFiles/qpOASES.dir/src/Constraints.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Constraints.cpp > CMakeFiles/qpOASES.dir/src/Constraints.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Constraints.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Constraints.cpp -o CMakeFiles/qpOASES.dir/src/Constraints.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Constraints.cpp -o CMakeFiles/qpOASES.dir/src/Constraints.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o.provides.build: src/qpO
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o: ../src/qpOASES/src/Flipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Flipper.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Flipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Flipper.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Flipper.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Flipper.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Flipper.cpp > CMakeFiles/qpOASES.dir/src/Flipper.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Flipper.cpp > CMakeFiles/qpOASES.dir/src/Flipper.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Flipper.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Flipper.cpp -o CMakeFiles/qpOASES.dir/src/Flipper.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Flipper.cpp -o CMakeFiles/qpOASES.dir/src/Flipper.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o.provides.build: src/qpOASES
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o: ../src/qpOASES/src/Indexlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Indexlist.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp > CMakeFiles/qpOASES.dir/src/Indexlist.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp > CMakeFiles/qpOASES.dir/src/Indexlist.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Indexlist.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp -o CMakeFiles/qpOASES.dir/src/Indexlist.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Indexlist.cpp -o CMakeFiles/qpOASES.dir/src/Indexlist.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o.provides.build: src/qpOAS
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o: ../src/qpOASES/src/LAPACKReplacement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp > CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp > CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp -o CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/LAPACKReplacement.cpp -o CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o.provides.build: s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o: ../src/qpOASES/src/Matrices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Matrices.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Matrices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Matrices.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Matrices.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Matrices.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Matrices.cpp > CMakeFiles/qpOASES.dir/src/Matrices.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Matrices.cpp > CMakeFiles/qpOASES.dir/src/Matrices.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Matrices.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Matrices.cpp -o CMakeFiles/qpOASES.dir/src/Matrices.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Matrices.cpp -o CMakeFiles/qpOASES.dir/src/Matrices.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o.requires:
 
@@ -227,16 +227,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o.provides.build: src/qpOASE
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o: ../src/qpOASES/src/MessageHandling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp > CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp > CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp -o CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/MessageHandling.cpp -o CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o.requires:
 
@@ -251,16 +251,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o.provides.build: src
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o: ../src/qpOASES/src/OQPinterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp > CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp > CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp -o CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/OQPinterface.cpp -o CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o.requires:
 
@@ -275,16 +275,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o.provides.build: src/qp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o: ../src/qpOASES/src/Options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Options.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Options.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Options.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Options.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Options.cpp > CMakeFiles/qpOASES.dir/src/Options.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Options.cpp > CMakeFiles/qpOASES.dir/src/Options.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Options.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Options.cpp -o CMakeFiles/qpOASES.dir/src/Options.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Options.cpp -o CMakeFiles/qpOASES.dir/src/Options.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o.requires:
 
@@ -299,16 +299,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/Options.cpp.o.provides.build: src/qpOASES
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o: ../src/qpOASES/src/QProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/QProblem.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/QProblem.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblem.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/QProblem.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblem.cpp > CMakeFiles/qpOASES.dir/src/QProblem.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblem.cpp > CMakeFiles/qpOASES.dir/src/QProblem.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/QProblem.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblem.cpp -o CMakeFiles/qpOASES.dir/src/QProblem.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblem.cpp -o CMakeFiles/qpOASES.dir/src/QProblem.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o.requires:
 
@@ -323,16 +323,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o.provides.build: src/qpOASE
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o: ../src/qpOASES/src/QProblemB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/QProblemB.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp > CMakeFiles/qpOASES.dir/src/QProblemB.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp > CMakeFiles/qpOASES.dir/src/QProblemB.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/QProblemB.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp -o CMakeFiles/qpOASES.dir/src/QProblemB.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/QProblemB.cpp -o CMakeFiles/qpOASES.dir/src/QProblemB.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o.requires:
 
@@ -347,16 +347,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o.provides.build: src/qpOAS
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o: ../src/qpOASES/src/SQProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/SQProblem.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp > CMakeFiles/qpOASES.dir/src/SQProblem.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp > CMakeFiles/qpOASES.dir/src/SQProblem.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/SQProblem.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp -o CMakeFiles/qpOASES.dir/src/SQProblem.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblem.cpp -o CMakeFiles/qpOASES.dir/src/SQProblem.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o.requires:
 
@@ -371,16 +371,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o.provides.build: src/qpOAS
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o: ../src/qpOASES/src/SQProblemSchur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp > CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp > CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp -o CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SQProblemSchur.cpp -o CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o.requires:
 
@@ -395,16 +395,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o.provides.build: src/
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o: ../src/qpOASES/src/SolutionAnalysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp > CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp > CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp -o CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SolutionAnalysis.cpp -o CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o.requires:
 
@@ -419,16 +419,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o.provides.build: sr
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o: ../src/qpOASES/src/SparseSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp > CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp > CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp -o CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SparseSolver.cpp -o CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o.requires:
 
@@ -443,16 +443,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o.provides.build: src/qp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o: ../src/qpOASES/src/SubjectTo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp > CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp > CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp -o CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/SubjectTo.cpp -o CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o.requires:
 
@@ -467,16 +467,16 @@ src/qpOASES/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o.provides.build: src/qpOAS
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o: src/qpOASES/CMakeFiles/qpOASES.dir/flags.make
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o: ../src/qpOASES/src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Utils.cpp.o -c /home/eric/ironhorse-ctrl/src/qpOASES/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qpOASES.dir/src/Utils.cpp.o -c /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Utils.cpp
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qpOASES.dir/src/Utils.cpp.i"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ironhorse-ctrl/src/qpOASES/src/Utils.cpp > CMakeFiles/qpOASES.dir/src/Utils.cpp.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Utils.cpp > CMakeFiles/qpOASES.dir/src/Utils.cpp.i
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qpOASES.dir/src/Utils.cpp.s"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ironhorse-ctrl/src/qpOASES/src/Utils.cpp -o CMakeFiles/qpOASES.dir/src/Utils.cpp.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/qpOASES/src/Utils.cpp -o CMakeFiles/qpOASES.dir/src/Utils.cpp.s
 
 src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o.requires:
 
@@ -533,9 +533,9 @@ src/qpOASES/libs/libqpOASES.so.3.2: src/qpOASES/CMakeFiles/qpOASES.dir/src/Subje
 src/qpOASES/libs/libqpOASES.so.3.2: src/qpOASES/CMakeFiles/qpOASES.dir/src/Utils.cpp.o
 src/qpOASES/libs/libqpOASES.so.3.2: src/qpOASES/CMakeFiles/qpOASES.dir/build.make
 src/qpOASES/libs/libqpOASES.so.3.2: src/qpOASES/CMakeFiles/qpOASES.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libs/libqpOASES.so"
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qpOASES.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -E cmake_symlink_library libs/libqpOASES.so.3.2 libs/libqpOASES.so.3.2 libs/libqpOASES.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libs/libqpOASES.so"
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qpOASES.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -E cmake_symlink_library libs/libqpOASES.so.3.2 libs/libqpOASES.so.3.2 libs/libqpOASES.so
 
 src/qpOASES/libs/libqpOASES.so: src/qpOASES/libs/libqpOASES.so.3.2
 	@$(CMAKE_COMMAND) -E touch_nocreate src/qpOASES/libs/libqpOASES.so
@@ -567,10 +567,10 @@ src/qpOASES/CMakeFiles/qpOASES.dir/requires: src/qpOASES/CMakeFiles/qpOASES.dir/
 .PHONY : src/qpOASES/CMakeFiles/qpOASES.dir/requires
 
 src/qpOASES/CMakeFiles/qpOASES.dir/clean:
-	cd /home/eric/ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -P CMakeFiles/qpOASES.dir/cmake_clean.cmake
+	cd /home/eric/big-ironhorse-ctrl/build/src/qpOASES && $(CMAKE_COMMAND) -P CMakeFiles/qpOASES.dir/cmake_clean.cmake
 .PHONY : src/qpOASES/CMakeFiles/qpOASES.dir/clean
 
 src/qpOASES/CMakeFiles/qpOASES.dir/depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl/src/qpOASES /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build/src/qpOASES /home/eric/ironhorse-ctrl/build/src/qpOASES/CMakeFiles/qpOASES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl/src/qpOASES /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build/src/qpOASES /home/eric/big-ironhorse-ctrl/build/src/qpOASES/CMakeFiles/qpOASES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/qpOASES/CMakeFiles/qpOASES.dir/depend
 

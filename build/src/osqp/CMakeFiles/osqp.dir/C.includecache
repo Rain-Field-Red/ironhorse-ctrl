@@ -124,19 +124,19 @@ qdldl_types.h
 
 ../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/lib_handler.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/lib_handler.c
 lib_handler.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/lib_handler.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/lib_handler.h
 ctype.h
 -
 string.h
 -
 constants.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/constants.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/constants.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/lib_handler.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/lib_handler.h
 glob_opts.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/glob_opts.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/glob_opts.h
 windows.h
 -
 unistd.h
@@ -144,95 +144,95 @@ unistd.h
 dlfcn.h
 -
 
-/home/eric/ironhorse-ctrl/src/osqp/src/auxil.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/auxil.c
 osqp.h
-/home/eric/ironhorse-ctrl/src/osqp/src/osqp.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/osqp.h
 auxil.h
-/home/eric/ironhorse-ctrl/src/osqp/src/auxil.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/auxil.h
 proj.h
-/home/eric/ironhorse-ctrl/src/osqp/src/proj.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/proj.h
 lin_alg.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_alg.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_alg.h
 constants.h
-/home/eric/ironhorse-ctrl/src/osqp/src/constants.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/constants.h
 scaling.h
-/home/eric/ironhorse-ctrl/src/osqp/src/scaling.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/scaling.h
 util.h
-/home/eric/ironhorse-ctrl/src/osqp/src/util.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/util.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/cs.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/cs.c
 cs.h
-/home/eric/ironhorse-ctrl/src/osqp/src/cs.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/cs.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/ctrlc.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/ctrlc.c
 ctrlc.h
-/home/eric/ironhorse-ctrl/src/osqp/src/ctrlc.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/ctrlc.h
 signal.h
 -
 
-/home/eric/ironhorse-ctrl/src/osqp/src/kkt.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/kkt.c
 kkt.h
-/home/eric/ironhorse-ctrl/src/osqp/src/kkt.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/kkt.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_alg.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_alg.c
 lin_alg.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_alg.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_alg.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_sys.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_sys.c
 lin_sys.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_sys.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_sys.h
 qdldl_interface.h
-/home/eric/ironhorse-ctrl/src/osqp/src/qdldl_interface.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/qdldl_interface.h
 pardiso_interface.h
-/home/eric/ironhorse-ctrl/src/osqp/src/pardiso_interface.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/pardiso_interface.h
 pardiso_loader.h
-/home/eric/ironhorse-ctrl/src/osqp/src/pardiso_loader.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/pardiso_loader.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/osqp.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/osqp.c
 osqp.h
-/home/eric/ironhorse-ctrl/src/osqp/src/osqp.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/osqp.h
 auxil.h
-/home/eric/ironhorse-ctrl/src/osqp/src/auxil.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/auxil.h
 util.h
-/home/eric/ironhorse-ctrl/src/osqp/src/util.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/util.h
 scaling.h
-/home/eric/ironhorse-ctrl/src/osqp/src/scaling.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/scaling.h
 glob_opts.h
-/home/eric/ironhorse-ctrl/src/osqp/src/glob_opts.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/glob_opts.h
 polish.h
-/home/eric/ironhorse-ctrl/src/osqp/src/polish.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/polish.h
 ctrlc.h
-/home/eric/ironhorse-ctrl/src/osqp/src/ctrlc.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/ctrlc.h
 lin_sys.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_sys.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_sys.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/polish.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/polish.c
 polish.h
-/home/eric/ironhorse-ctrl/src/osqp/src/polish.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/polish.h
 lin_alg.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_alg.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_alg.h
 util.h
-/home/eric/ironhorse-ctrl/src/osqp/src/util.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/util.h
 auxil.h
-/home/eric/ironhorse-ctrl/src/osqp/src/auxil.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/auxil.h
 lin_sys.h
-/home/eric/ironhorse-ctrl/src/osqp/src/lin_sys.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/lin_sys.h
 kkt.h
-/home/eric/ironhorse-ctrl/src/osqp/src/kkt.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/kkt.h
 proj.h
-/home/eric/ironhorse-ctrl/src/osqp/src/proj.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/proj.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/proj.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/proj.c
 proj.h
-/home/eric/ironhorse-ctrl/src/osqp/src/proj.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/proj.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/scaling.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/scaling.c
 scaling.h
-/home/eric/ironhorse-ctrl/src/osqp/src/scaling.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/scaling.h
 
-/home/eric/ironhorse-ctrl/src/osqp/src/util.c
+/home/eric/big-ironhorse-ctrl/src/osqp/src/util.c
 util.h
-/home/eric/ironhorse-ctrl/src/osqp/src/util.h
+/home/eric/big-ironhorse-ctrl/src/osqp/src/util.h
 string.h
 -
 

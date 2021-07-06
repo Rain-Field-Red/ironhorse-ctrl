@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/ironhorse-ctrl/test/csvtools.cc
+/home/eric/big-ironhorse-ctrl/test/csvtools.cc
 csvtools.h
-/home/eric/ironhorse-ctrl/test/csvtools.h
+/home/eric/big-ironhorse-ctrl/test/csvtools.h
 
-/home/eric/ironhorse-ctrl/test/csvtools.h
+/home/eric/big-ironhorse-ctrl/test/csvtools.h
 iostream
 -
 sstream
@@ -24,7 +24,7 @@ vector
 stdlib.h
 -
 
-/home/eric/ironhorse-ctrl/test/test_ironhorse_kinematics.cpp
+/home/eric/big-ironhorse-ctrl/test/test_ironhorse_kinematics.cpp
 string
 -
 iostream
@@ -34,7 +34,7 @@ stdio.h
 rbdl/rbdl.h
 -
 csvtools.h
-/home/eric/ironhorse-ctrl/test/csvtools.h
+/home/eric/big-ironhorse-ctrl/test/csvtools.h
 rbdl/addons/luamodel/luamodel.h
 -
 rbdl/addons/urdfreader/urdfreader.h
@@ -42,7 +42,7 @@ rbdl/addons/urdfreader/urdfreader.h
 rbdl/rbdl_utils.h
 -
 rbdl/Kinematics.h
-/home/eric/ironhorse-ctrl/test/rbdl/Kinematics.h
+/home/eric/big-ironhorse-ctrl/test/rbdl/Kinematics.h
 
 /usr/local/include/Eigen/Cholesky
 Core
