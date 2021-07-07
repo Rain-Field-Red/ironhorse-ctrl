@@ -92,9 +92,9 @@ qdldl_types.h
 
 ../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c
 glob_opts.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/glob_opts.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/glob_opts.h
 math.h
 -
 stdlib.h
@@ -102,75 +102,75 @@ stdlib.h
 stdio.h
 -
 mex.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/mex.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/mex.h
 matrix.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/matrix.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/matrix.h
 SuiteSparse_config.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.h
 time.h
 -
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_1.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_2.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_aat.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_control.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_defaults.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_info.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_order.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_post_tree.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_postorder.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_preprocess.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_valid.c
 amd_internal.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd/src/amd_internal.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.c
 glob_opts.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/glob_opts.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/glob_opts.h
 qdldl.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl.h
 qdldl_interface.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.h
 amd.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/amd.h
 lin_alg.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/lin_alg.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/lin_alg.h
 kkt.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/kkt.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/kkt.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_interface.h
 types.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/types.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/types.h
 qdldl_types.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_types.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_types.h
 

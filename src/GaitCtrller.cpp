@@ -10,7 +10,8 @@ GaitCtrller::GaitCtrller(double freq, double* PIDParam) {
   //convexMPC = new ConvexMPCLocomotion(1.0 / freq, 2);
 
   //_quadruped = buildMiniCheetah<float>();     //初始化四足机器人参数
-  _quadruped = buildIronHorse<float>();
+  //_quadruped = buildIronHorse<float>();
+  _quadruped = buildBigIronHorse<float>();
   //_model = _quadruped.buildModel();
 
   _legController = new LegController<float>(_quadruped);
@@ -152,12 +153,12 @@ void GaitCtrller::ToqueCalculator(double* imuData, double* motorData,
     _legdata.qd_knee[i] = motorData[12 + i * 3 + 2];
   }
 
-  printf("befor state estimator run in run \n");
+  //printf("befor state estimator run in run \n");
 
   // state estimator
   _stateEstimator->run();
 
-  printf("test");
+  //printf("test");
 
   // Update the data from the robot
   _legController->updateData(&_legdata);

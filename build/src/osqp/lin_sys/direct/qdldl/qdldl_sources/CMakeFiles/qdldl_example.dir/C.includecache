@@ -12,9 +12,9 @@ qdldl_types.h
 
 ../src/osqp/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h
 
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/example.c
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/example.c
 qdldl.h
-/home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/qdldl.h
+/home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/examples/c/qdldl.h
 stdlib.h
 -
 stdio.h

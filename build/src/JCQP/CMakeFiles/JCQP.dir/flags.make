@@ -7,11 +7,11 @@ C_FLAGS = -fPIC   -std=c++14
 
 C_DEFINES = -DJCQP_EXPORTS
 
-C_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/ironhorse-ctrl/src -I/home/eric/ironhorse-ctrl/src/JCQP/amd/include 
+C_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/big-ironhorse-ctrl/src -I/home/eric/big-ironhorse-ctrl/src/JCQP/amd/include 
 
 CXX_FLAGS = -fPIC   -std=c++14
 
 CXX_DEFINES = -DJCQP_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/ironhorse-ctrl/src -I/home/eric/ironhorse-ctrl/src/JCQP/amd/include 
+CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/big-ironhorse-ctrl/src -I/home/eric/big-ironhorse-ctrl/src/JCQP/amd/include 
 

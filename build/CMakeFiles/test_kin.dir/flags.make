@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/ironhorse-ctrl/src 
+CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/big-ironhorse-ctrl/src 
 

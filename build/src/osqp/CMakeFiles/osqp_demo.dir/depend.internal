@@ -10,4 +10,4 @@ src/osqp/CMakeFiles/osqp_demo.dir/examples/osqp_demo.c.o
  ../src/osqp/include/osqp_configure.h
  ../src/osqp/include/types.h
  ../src/osqp/include/util.h
- /home/eric/ironhorse-ctrl/src/osqp/examples/osqp_demo.c
+ /home/eric/big-ironhorse-ctrl/src/osqp/examples/osqp_demo.c

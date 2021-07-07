@@ -45,27 +45,27 @@ unset(_expectedTargets)
 add_library(osqp::osqpstatic SHARED IMPORTED)
 
 set_target_properties(osqp::osqpstatic PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/eric/ironhorse-ctrl/src/osqp/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/eric/big-ironhorse-ctrl/src/osqp/include"
 )
 
 # Create imported target osqp::osqp
 add_library(osqp::osqp SHARED IMPORTED)
 
 set_target_properties(osqp::osqp PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/eric/ironhorse-ctrl/src/osqp/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/eric/big-ironhorse-ctrl/src/osqp/include"
 )
 
 # Import target "osqp::osqpstatic" for configuration ""
 set_property(TARGET osqp::osqpstatic APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(osqp::osqpstatic PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/eric/ironhorse-ctrl/build/src/osqp/out/libosqp.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/eric/big-ironhorse-ctrl/build/src/osqp/out/libosqp.so"
   IMPORTED_SONAME_NOCONFIG "libosqp.so"
   )
 
 # Import target "osqp::osqp" for configuration ""
 set_property(TARGET osqp::osqp APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(osqp::osqp PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/eric/ironhorse-ctrl/build/src/osqp/out/libosqp.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/eric/big-ironhorse-ctrl/build/src/osqp/out/libosqp.so"
   IMPORTED_SONAME_NOCONFIG "libosqp.so"
   )
 

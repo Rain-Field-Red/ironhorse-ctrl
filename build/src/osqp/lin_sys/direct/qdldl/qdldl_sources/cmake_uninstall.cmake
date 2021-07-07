@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/eric/ironhorse-ctrl/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/eric/ironhorse-ctrl/build/install_manifest.txt")
-endif(NOT EXISTS "/home/eric/ironhorse-ctrl/build/install_manifest.txt")
+if(NOT EXISTS "/home/eric/big-ironhorse-ctrl/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/eric/big-ironhorse-ctrl/build/install_manifest.txt")
+endif(NOT EXISTS "/home/eric/big-ironhorse-ctrl/build/install_manifest.txt")
 
-file(READ "/home/eric/ironhorse-ctrl/build/install_manifest.txt" files)
+file(READ "/home/eric/big-ironhorse-ctrl/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

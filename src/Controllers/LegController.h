@@ -75,7 +75,14 @@ class LegController {
     for (auto& data : datas) data.setQuadruped(_quadruped);
     _ironhorse = new Model();
 
-    if (!Addons::URDFReadFromFile ("/home/eric/ironhorse-ctrl/models/iron_horse/iron_horse_simple.urdf", 
+    // if (!Addons::URDFReadFromFile ("/home/eric/ironhorse-ctrl/models/iron_horse/iron_horse_simple.urdf", 
+    //                                    _ironhorse, false)             ){        
+    //     std::cerr     << "Error loading model ./model/pendulum.lua" 
+    //                 << std::endl;
+    //     abort();
+    // }
+
+    if (!Addons::URDFReadFromFile ("/home/eric/big-ironhorse-ctrl/models/big_iron_horse/big_iron_horse_simple.urdf", 
                                        _ironhorse, false)             ){        
         std::cerr     << "Error loading model ./model/pendulum.lua" 
                     << std::endl;
@@ -118,8 +125,8 @@ class LegController {
   u32 _calibrateEncoders = 0;
   int flags = 0;
 
-  float stand_target[12] = {0.0, -0.8, 1.6, 0.0, -0.8, 1.6,
-                            0.0, -0.8, 1.6, 0.0, -0.8, 1.6};
+  float stand_target[12] = {0.0, -0.87, 1.6, 0.0, -0.87, 1.6,
+                            0.0, -0.87, 1.6, 0.0, -0.87, 1.6};
   float init_pos[12] = {0.0};
 
   int myflags = 0;

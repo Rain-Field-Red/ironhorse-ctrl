@@ -6,5 +6,5 @@ C_FLAGS =  -O3 -fPIE   -std=c++14
 
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/ironhorse-ctrl/src -I/home/eric/ironhorse-ctrl/src/osqp/include 
+C_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/big-ironhorse-ctrl/src -I/home/eric/big-ironhorse-ctrl/src/osqp/include 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/ironhorse-ctrl
+CMAKE_SOURCE_DIR = /home/eric/big-ironhorse-ctrl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/ironhorse-ctrl/build
+CMAKE_BINARY_DIR = /home/eric/big-ironhorse-ctrl/build
 
 # Include any dependencies generated for this target.
 include src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/depend.make
@@ -59,16 +59,16 @@ include src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/f
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o: src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/flags.make
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o: ../src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/qdldlstatic.dir/src/qdldl.c.o   -c /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/qdldlstatic.dir/src/qdldl.c.o   -c /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qdldlstatic.dir/src/qdldl.c.i"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c > CMakeFiles/qdldlstatic.dir/src/qdldl.c.i
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c > CMakeFiles/qdldlstatic.dir/src/qdldl.c.i
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qdldlstatic.dir/src/qdldl.c.s"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c -o CMakeFiles/qdldlstatic.dir/src/qdldl.c.s
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c -o CMakeFiles/qdldlstatic.dir/src/qdldl.c.s
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o.requires:
 
@@ -91,9 +91,9 @@ qdldlstatic_EXTERNAL_OBJECTS =
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/out/libqdldl.a: src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/src/qdldl.c.o
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/out/libqdldl.a: src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/build.make
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/out/libqdldl.a: src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library out/libqdldl.a"
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -P CMakeFiles/qdldlstatic.dir/cmake_clean_target.cmake
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qdldlstatic.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/big-ironhorse-ctrl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library out/libqdldl.a"
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -P CMakeFiles/qdldlstatic.dir/cmake_clean_target.cmake
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qdldlstatic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/build: src/osqp/lin_sys/direct/qdldl/qdldl_sources/out/libqdldl.a
@@ -105,10 +105,10 @@ src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/requires:
 .PHONY : src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/requires
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/clean:
-	cd /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -P CMakeFiles/qdldlstatic.dir/cmake_clean.cmake
+	cd /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources && $(CMAKE_COMMAND) -P CMakeFiles/qdldlstatic.dir/cmake_clean.cmake
 .PHONY : src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/clean
 
 src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/depend:
-	cd /home/eric/ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/ironhorse-ctrl /home/eric/ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources /home/eric/ironhorse-ctrl/build /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources /home/eric/ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/big-ironhorse-ctrl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/big-ironhorse-ctrl /home/eric/big-ironhorse-ctrl/src/osqp/lin_sys/direct/qdldl/qdldl_sources /home/eric/big-ironhorse-ctrl/build /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources /home/eric/big-ironhorse-ctrl/build/src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/osqp/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlstatic.dir/depend
 

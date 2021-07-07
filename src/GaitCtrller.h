@@ -21,6 +21,7 @@
 #include "calculateTool.h"
 
 #include "Dynamics/IronHorse.h"
+#include "Dynamics/BigIronHorse.h"
 
 struct JointEff {
   double eff[12];

@@ -6,6 +6,11 @@
         "*.ipp": "cpp",
         "*.tcc": "cpp",
         "matrixfunctions": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "typeinfo": "cpp",
+        "strstream": "cpp",
+        "orderingmethods": "cpp"
     }
 }

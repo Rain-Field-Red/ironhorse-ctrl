@@ -77,7 +77,7 @@ void ConvexMPCLocomotion::_SetupCommand(
     StateEstimatorContainer<float>& _stateEstimator,
     std::vector<double> gamepadCommand) {
   //_body_height = 0.25;
-  _body_height = 0.7;
+  _body_height = 0.9;
 
   float x_vel_cmd, y_vel_cmd, yaw_vel_cmd;
   float x_filter(0.01), y_filter(0.006), yaw_filter(0.03);
@@ -316,7 +316,8 @@ void ConvexMPCLocomotion::run(Quadruped<float>& _quadruped,
       swingTimeRemaining[i] -= dt;
     }
 
-    footSwingTrajectories[i].setHeight(0.06);
+    //footSwingTrajectories[i].setHeight(0.06);
+    footSwingTrajectories[i].setHeight(0.08);
     Vec3<float> offset(0, side_sign[i] * .065, 0);
 
     Vec3<float> pRobotFrame = (_quadruped.getHipLocation(i) +
@@ -643,8 +644,8 @@ void ConvexMPCLocomotion::solveDenseMPC(
 
   Timer t1;
   dtMPC = dt * iterationsBetweenMPC;
-  setup_problem(dtMPC, horizonLength, 0.4, 120);
-  // setup_problem(dtMPC,horizonLength,0.4,650); //DH
+  //setup_problem(dtMPC, horizonLength, 0.4, 120);      //mini_cheetah
+  setup_problem(dtMPC,horizonLength,0.4,650);           //bigironhorse
   update_x_drag(x_comp_integral);
 
   float cmpc_x_drag = 3.0;

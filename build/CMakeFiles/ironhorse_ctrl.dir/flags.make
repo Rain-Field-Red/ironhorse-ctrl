@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -std=c++14
 
 CXX_DEFINES = -Dironhorse_ctrl_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/ironhorse-ctrl/src -I/home/eric/ironhorse-ctrl/src/osqp/include 
+CXX_INCLUDES = -I/usr/local/include -I/usr/include/eigen3 -I/usr/include/lua5.1 -I/home/eric/big-ironhorse-ctrl/src -I/home/eric/big-ironhorse-ctrl/src/osqp/include 
 

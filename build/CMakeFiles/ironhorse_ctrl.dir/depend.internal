@@ -13,13 +13,13 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/DesiredStateCommand.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/ControlParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
- /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
- /home/eric/ironhorse-ctrl/src/Controllers/LegController.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/ControlParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -259,8 +259,8 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/FootSwingTrajectory.cpp.o
  ../src/Utilities/Interpolation.h
  ../src/Utilities/cTypes.h
  ../src/Utilities/cppTypes.h
- /home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
- /home/eric/ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/FootSwingTrajectory.h
 CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o
  ../src/Controllers/LegController.h
  ../src/Controllers/RobotLegState.h
@@ -274,7 +274,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/LegController.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/LegController.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.cpp
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -528,7 +528,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/OrientationEstimator.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.cpp
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -782,7 +782,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/PositionVelocityEstimator.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.cpp
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -1030,13 +1030,13 @@ CMakeFiles/ironhorse_ctrl.dir/src/Controllers/SafetyChecker.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/ControlParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/LegController.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
- /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.h
- /home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/ControlParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.cpp
+ /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -1281,7 +1281,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/FloatingBaseModel.cpp.o
  ../src/Utilities/cTypes.h
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
- /home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.cpp
 CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o
  ../src/Dynamics/ActuatorModel.h
  ../src/Dynamics/FloatingBaseModel.h
@@ -1293,7 +1293,7 @@ CMakeFiles/ironhorse_ctrl.dir/src/Dynamics/Quadruped.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.cpp
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.cpp
 CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o
  ../src/Controllers/FootSwingTrajectory.h
  ../src/Dynamics/ActuatorModel.h
@@ -1308,30 +1308,31 @@ CMakeFiles/ironhorse_ctrl.dir/src/GaitCtrller.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/Controllers/ContactEstimator.h
- /home/eric/ironhorse-ctrl/src/Controllers/ControlFSMData.h
- /home/eric/ironhorse-ctrl/src/Controllers/ControlParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
- /home/eric/ironhorse-ctrl/src/Controllers/LegController.h
- /home/eric/ironhorse-ctrl/src/Controllers/OrientationEstimator.h
- /home/eric/ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotLegState.h
- /home/eric/ironhorse-ctrl/src/Controllers/RobotParameters.h
- /home/eric/ironhorse-ctrl/src/Controllers/SafetyChecker.h
- /home/eric/ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
- /home/eric/ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
- /home/eric/ironhorse-ctrl/src/Dynamics/IronHorse.h
- /home/eric/ironhorse-ctrl/src/Dynamics/MiniCheetah.h
- /home/eric/ironhorse-ctrl/src/Dynamics/Quadruped.h
- /home/eric/ironhorse-ctrl/src/GaitCtrller.cpp
- /home/eric/ironhorse-ctrl/src/GaitCtrller.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
- /home/eric/ironhorse-ctrl/src/Utilities/IMUTypes.h
- /home/eric/ironhorse-ctrl/src/Utilities/cppTypes.h
- /home/eric/ironhorse-ctrl/src/calculateTool.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/ContactEstimator.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/ControlFSMData.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/ControlParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/DesiredStateCommand.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/LegController.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/OrientationEstimator.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/PositionVelocityEstimator.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotLegState.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/RobotParameters.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/SafetyChecker.h
+ /home/eric/big-ironhorse-ctrl/src/Controllers/StateEstimatorContainer.h
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/BigIronHorse.h
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/FloatingBaseModel.h
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/IronHorse.h
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/MiniCheetah.h
+ /home/eric/big-ironhorse-ctrl/src/Dynamics/Quadruped.h
+ /home/eric/big-ironhorse-ctrl/src/GaitCtrller.cpp
+ /home/eric/big-ironhorse-ctrl/src/GaitCtrller.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+ /home/eric/big-ironhorse-ctrl/src/Utilities/IMUTypes.h
+ /home/eric/big-ironhorse-ctrl/src/Utilities/cppTypes.h
+ /home/eric/big-ironhorse-ctrl/src/calculateTool.h
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -1591,12 +1592,12 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
  ../src/Utilities/utilities.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/ConvexMPCLocomotion.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
  /usr/local/include/Eigen/Cholesky
  /usr/local/include/Eigen/Core
  /usr/local/include/Eigen/Dense
@@ -1835,8 +1836,8 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/ConvexMPCLocomotion.cpp.o
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/Gait.cpp.o
  ../src/Utilities/cTypes.h
  ../src/Utilities/cppTypes.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/Gait.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/Gait.h
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o
  ../src/JCQP/SparseMatrixMath.h
  ../src/Utilities/Timer.h
@@ -1850,13 +1851,13 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/OsqpTriples.cpp.o
  ../src/osqp/include/osqp_configure.h
  ../src/osqp/include/types.h
  ../src/osqp/include/util.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/OsqpTriples.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/RobotState.cpp.o
  ../src/Utilities/common_types.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o
  ../src/JCQP/CholeskyDenseSolver.h
  ../src/JCQP/CholeskySparseSolver.h
@@ -1897,10 +1898,10 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SolverMPC.cpp.o
  ../src/qpOASES/include/qpOASES/extras/OQPinterface.hpp
  ../src/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
  ../src/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/RobotState.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o
  ../src/JCQP/CholeskyDenseSolver.h
  ../src/JCQP/CholeskySparseSolver.h
@@ -1912,19 +1913,19 @@ CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC.cpp.o
  ../src/Utilities/cTypes.h
  ../src/Utilities/cppTypes.h
  ../src/Utilities/orientation_tools.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/SparseCMPC_Math.cpp.o
  ../src/JCQP/SparseMatrixMath.h
  ../src/JCQP/types.h
  ../src/Utilities/cTypes.h
  ../src/Utilities/cppTypes.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/GraphSearch.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SparseCMPC_Math.cpp
 CMakeFiles/ironhorse_ctrl.dir/src/MPC_Ctrl/convexMPC_interface.cpp.o
  ../src/Utilities/common_types.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
- /home/eric/ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/SolverMPC.h
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.cpp
+ /home/eric/big-ironhorse-ctrl/src/MPC_Ctrl/convexMPC_interface.h
